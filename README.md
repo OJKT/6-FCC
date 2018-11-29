@@ -2,6 +2,107 @@
 Lesson Notes of OJKT
 <div id="page-wrapper">
 <style>
+	body, html {
+  font-family: "Khand", sans-serif;
+  background: lightgrey;
+}
+
+/*toolbar&title*/
+#title {
+	position: static;
+	top: 0;
+	right: 0;
+	padding-left: 15vh;
+	padding-right: 15vh;
+	padding-bottom: 5vh;
+	padding-top: 4vh;
+  margin-top: 5px;
+	margin-left: 1vw;
+	margin-right: 0.3vw;
+	color: black;
+	background: repeating-linear-gradient(180deg, black 0px, orange 40px, black 80px);
+  font-size: 4vm;
+	font-size: 5vh;
+  font-family: font-family: 'Lobster Two', cursive;
+	text-align: center;
+	text-transform: uppercase;
+}	
+/*toolbar&title*/
+
+/*footer*/
+footer {
+	position: static;
+	bottom: 0;
+	right: 0;
+  margin-top: 10px;
+	margin-left: 0px;
+	padding-left: 10px;
+	margin-right: 1px;
+  background-color: #C0C0C0;
+	border: 4px solid #000;
+ 	border-radius: 4px;
+	color: darkgrey;
+	font-size: 2vm;
+	font-size: 2vh;
+}
+span {
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.9em;
+    color: #eee;
+}
+/*footer*/
+
+/*navlinks*/
+  ul {
+	position: fixed;
+	Padding-top: 0vh;
+	margin-top: 1vh;
+	margin-left: 90vw;
+	font-family: font-family: 'Lobster Two', cursive;
+	text-transform: none;
+	font-size: 3vm;
+	font-size: 3vh;
+		background-color: white;
+		transform: rotate(-45deg);
+		border: solid black 1vh;
+		border-radius: 4vh;
+}
+#nav-link {
+			padding-left: 0px;
+			padding-right: 5px;
+			color: red;
+			font-size: 3vh;
+    }
+/*navlinks*/
+
+/*two boxes*/
+  #box-container {
+    display: flex;
+    height: 500px;
+    
+  }
+  #box-1 {
+    background-color: dodgerblue;
+    width: 250px;
+    height: 250px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+    width: 250px;
+    height: 250px;
+  }
+/*two boxes*/
+p {
+	margin-right: 30px;
+	margin-left: 5px;
+}
+
+#subtitles {
+	color: red;
+}
 </style>
 <link href="https://fonts.googleapis.com/css?family=Khand:500" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lobster+Two" rel="stylesheet">
